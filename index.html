@@ -12,7 +12,7 @@
 <body ng-controller="MainController">
 <div class="container-fluid">
     <div class="row">
-        <div ng-repeat="movie in movies" class="col-md-3 text-center">
+        <div ng-repeat="movie in movies" class="col-sm-3 text-center">
             <h3>{{movie.title}}</h3>
             <img src="http://media.comicbook.com/files/img/default-movie.png" alt="" class="img-thumbnail">
         </div>
@@ -20,5 +20,6 @@
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
 <script src="app/app.js"></script>
+<script src="app/movies.service.js"></script>
 </body>
 </html>
