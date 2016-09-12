@@ -4,9 +4,9 @@
 
 <div class="container-fluid">
     <div class="row">
-        <div ng-repeat="movie in movies" class="col-sm-3 text-center">
-            <h3>{{movie.title}}</h3>
+        <div ng-repeat="movie in movies" class="col-sm-3 text-center" style="padding-top: 20px">
             <img src="http://media.comicbook.com/files/img/default-movie.png" alt="" class="img-thumbnail">
+            <small>{{movie.title}}</small> <br>
             <add-my-list ng-controller="addMyListController"></add-my-list>
         </div>
     </div>

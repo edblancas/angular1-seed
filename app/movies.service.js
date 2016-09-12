@@ -9,6 +9,6 @@ angular.module('movies', [])
         }
 
         this.getMovies = function () {
-            return $http.get(fileUrl).then(extract);
+            return $http.get(restUrl).then(extract);
         }
     });
